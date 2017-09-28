@@ -73,7 +73,7 @@ for  delta = delta_vec
         pattern = pattern_coord{i};
         current_index = pattern_index{i};
         for ut = utVec % for each sampling point of the trajectory of the pattern
-            is_incell_found = 0; %by default, no in grid is found
+            is_incell_found = 0; %by default, no in cell is found
             p_ut = [1 ut ut^2 ut^3 ut^4 ut^5] * kBasisMat * pattern; %evaluate position   
             for k = 1:6 %for all known collision free cells.
                 temp_coord = grid_center_coord{current_index(k,1),current_index(k,2)}; %get coordinate
@@ -82,7 +82,7 @@ for  delta = delta_vec
                 end
             end
 
-            if(is_incell_found == 0) %if no cell find, then the trajectory deviates from collision-free space
+            if(is_incell_found == 0) %if no cell find, then the sampling point deviates from collision-free space
                % disp('deviates from grid..');
                 is_exceed = 1;
                 break;
