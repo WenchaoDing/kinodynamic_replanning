@@ -9,9 +9,17 @@ The file is to solve the max-min problem in Appendix C in closed form, which is 
 
 The file is to numerically check the inflation needed to guarantee the RBK trajectory to be collision-free, which is written in Matlab and has been tested in Matlab R2016b.
 
+* rbk_inflation_3d.m
+
+The file is to show the 3d case, which provides the complementary results. 
+
 * permn.m
 
 The file is to enumerate all the patterns, which is from [Jos@Mathworks](https://www.mathworks.com/matlabcentral/fileexchange/7147-permn-v--n--k-).
+
+* grid2coord.m
+
+Some basic coordinate transformation. 
 
 ## Authors
 * Wenchao DING
