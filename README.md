@@ -23,7 +23,7 @@ Some basic coordinate transformation.
 
 * print.pdf
 
-For the users who does not have [Mathematica](https://www.wolfram.com/mathematica/) installed, we print the script and results from [Mathematica](https://www.wolfram.com/mathematica/) for them.
+For the users who do not have [Mathematica](https://www.wolfram.com/mathematica/) installed, we print the script and results from [Mathematica](https://www.wolfram.com/mathematica/) for them.
 
 
 ## Authors
