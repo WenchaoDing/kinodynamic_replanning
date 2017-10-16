@@ -32,6 +32,7 @@ kBasisMat =[ 1   26  66   26    1  0;
 kBasisMat = kBasisMat/factorial(5);         
          
 %% check all the patterns
+
 start_index = [7 7 7]; %locate initial point at center so that all the patterns are on the grid
 direction_map = [ 
   1  1   -1;  
